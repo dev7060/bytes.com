@@ -1,0 +1,8 @@
+ IF CHOICE == 'DELETE' 
+   x = What to delete
+   for (int i = 0; i < list.Count; i++){
+    if( x == list[i]){
+       list.RemoveAt[i];
+    }
+   }
+ 
