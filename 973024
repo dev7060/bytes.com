@@ -1,0 +1,3 @@
+if(!str1.equals(str2)){
+  ...
+}
