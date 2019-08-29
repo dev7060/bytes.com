@@ -1,0 +1,24 @@
+ struct s {
+     int hh;
+     int mm;
+     int s;
+ };
+ struct e {
+     int hh;
+     int mm;
+     int ss;
+ };
+ struct s start;
+ struct e end;
+ 
+ ...
+ start.hh=h1;
+ start.mm=m1;
+ start.ss=s1;
+ end.hh=h2;
+ end.mm=m2;
+ end.ss=s2;
+...
+ 
+ start.hh=start.mm=start.ss=end.hh=end.mm=end.ss=0;
+ 
