@@ -1,0 +1,16 @@
+//functions' declarations
+main(){
+...
+}
+//functions' definitions
+fun1(){
+...
+}
+fun2(){
+...
+}
+ 
+char newCh=leeskl();
+
+printf("%c", leeskl());
+ 
