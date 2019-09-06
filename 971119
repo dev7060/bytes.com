@@ -1,0 +1,7 @@
+You can use nested ifs to compare several strings using strcmp. Like:
+
+if(!strcmp(A, B)){
+   if(!strcmp(A, C)){
+       //Print strings A, B and C are equal
+   }
+}

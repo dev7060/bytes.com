@@ -1,0 +1,9 @@
+You need to plan and figure out how are you going to implement things. You can use different tools like ArgoUML etc. for diagrams.
+
+Different things you can include in your project:
+
+-For the main interface: Addition of new members, deletion of members, update in the existing info of the members, stock available of equipment, information of issued equipment, event dates, coaches details etc.
+
+-For a member: Joining date, membership expiration date, gender, payment status, team, joined sports etc.
+
+You can use class objects to perform read/write operations with the files.

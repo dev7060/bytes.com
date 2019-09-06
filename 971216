@@ -1,0 +1,8 @@
+As per the requiments, you can use a 2D character array. Quote[x][y] , here x is 10 but y needs to be mentioned (size of the maximum length quote).
+
+Implementation for outputting:
+
+for (i=0; i<x; i++){
+   printf("%s", Quote[i]);
+}
+ 

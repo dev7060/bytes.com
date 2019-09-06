@@ -1,0 +1,19 @@
+You have put a semicolon just before the definition of function body which literally means the function has no body.
+
+That is required only in the declaration of function as it tells the compiler the function name, return type and the no. and types of arguments.
+
+# Preprocessor directives
+ 
+//Function declaration
+return-type name(number and types of arguments);
+ 
+main(){
+ body of main
+}
+ 
+//function definition
+return-type name (arguments details){
+function body
+}
+
+However if the function is defined before the main function, there is no need of declaration.

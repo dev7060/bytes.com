@@ -1,0 +1,1 @@
+strcmp() is such a function for comparison. But it expects arguments in char* form, not in the string form. Therefore, you may need to convert your string first to char array.

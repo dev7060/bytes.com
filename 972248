@@ -1,0 +1,5 @@
+I am not sure in case of Python, but in general, all major operating systems will free the memory upon the termination of process.
+
+Are you referring to the memory that is being dynamically allocated? In C/C++, we use free() function to release the dynamically allocated space (since it doesn't get freed on its own).
+
+Hope that helps

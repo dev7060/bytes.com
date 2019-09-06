@@ -1,0 +1,28 @@
+How about this?
+
+do{
+cout << "Item Price Availability"<<endl;
+cout << "1. Samsung Php 20 "<<samsungAvail<<endl;
+cout << "2. iPhone Php 50 "<<iphoneAvail<<endl;
+cout << "0. Checkout Total Amount["<<amount<<"]"<<endl;
+cout << "choose your item: ";
+cin >> choose;
+ 
+if(choose == 1){
+cout << "samsung Php 20" <<endl;
+cout << "Quantity ";
+cin >> qty;
+amount += qty * 20;
+samsungAvail = samsungAvail - qty;
+cout << "Amount " << amount <<endl;
+}
+else if(choose == 2){
+cout << "iPhone Php 50" <<endl;
+cout << "Quantity ";
+cin >> qty;
+amount += qty * 50;
+iphoneAvail = iphoneAvail - qty;
+cout << "Amount " << amount <<endl;
+}
+}while(choose!=0);
+ 

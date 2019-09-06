@@ -1,0 +1,13 @@
+Single quote refers to a single character. Double quote makes it a string literal. The size of a string is: number of characters*size of each char plus 1 (of the terminator). Terminator is present at the end of a string. It is '\0' , called NUL in ASCII.
+Let's consider char X takes 1 byte. Therefore:
+'X' = 1 byte
+"X" = 2 bytes
+
+You can check these values as well, like:
+
+    char y = 'X';
+    cout<<sizeof(y);
+ ---------------------------------------
+    char y[]= "X";
+    cout<<sizeof(y);
+ 

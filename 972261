@@ -1,0 +1,14 @@
+You declared "membername" as int type but I am pretty sure you must be providing a string type value. Declare "memebername" as a string array and it'll be fine.
+--------------------------------------------------
+
+You need to look at data types and their correct usage.
+
+Here, "membername" needs to be a string, so we declared it as string data type. But both "oweight" and "lostw" will contain numeric values, so they need to be declared as int/float/double according to the need.
+
+Since you declared "oweight" and "lostw" as strings, you are treating them as strings and hence, using getline() function to store string type values in them.
+Later on you are using operators that are not meant to be used with string type values. The error you got is all about this.
+
+Here's what you have to change:
+- Declare oweight and lostw as int/float type.
+- Replace the getline() function with the simple console input keyword (cin) for them.
+It should be working now.

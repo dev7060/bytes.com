@@ -1,0 +1,19 @@
+&lt; means less-than. length, as it says, returns the length of the string. The condition of 'if' becomes true when the length of Hex is less than 5.
+
+-----------------------------------------------
+
+Hi there, I am not sure what you mean exactly.
+"the script was cut off the 6 due to the length limits to 4 characters"
+You can have a read on how substr() function works here. You can change it according to the needs like, Hex.substr(0,5) to avoid the cut off, of the character 6 from string "ABC 6"
+
+
+
+-----------------------------------------------
+
+Here's what I have observed after going through your program:
+
+Your program is converting the hexadecimal values (present in the string) to an integer number. Here's the flow:
+Reading barcode -> obtaining a string having hexadecimal values -> converting the string to a number (this number might be a product number such as 54673 etc.)
+Hexadecimal values have a base 16 and they range from 0 to 15. The values after 9 are named as: 10->A , 11->B, 12->C, 13->D, 14->E, 15->F. According to me, there should not be any space in the string if every character is treated as a hexadecimal value. For solving this, you can have another code snippet before the algorithm, to remove all the spaces in the string and obtain the correct string which can be processed further. In that case, manipulation in Hex.substr(0,4) is not even required since the correct string would be spaces free.
+If there's a standard way your barcodes are numbered (like 5 hex valued strings), then you need to manipulate a 4 char string by adding a 0 before that to make it ready to be processed further. Like "ABC 6" to "0ABC6"
+

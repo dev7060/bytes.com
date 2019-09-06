@@ -1,0 +1,7 @@
+- Use the modulus operator to extract the ones place like
+
+(a+b+c)%10=sum[index]
+
+- Use the division operator to get the next value of c
+
+c=(a+b+c)/10
