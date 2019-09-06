@@ -1,0 +1,42 @@
+Here's a pseudo code/algo I have come up with:
+
+You need five file pointer variables.
+
+Let's say: var1, var2 and var3: for reading from the existing files (ios::in mode)
+
+var4 and var5: for writing to the new files (ios:: in | ios::out mode , since both reading and writing are to be done with the new files).
+
+The basic idea is to read from the existing files and place that data accordingly to the new files using some 'if' conditions.
+
+while (var1.good()){    
+  READ a_admission, a_name, a_fname, a_gender from the file using var1
+ 
+  if(a_gender=='1'){
+       //It is now clear (with the help of a_gender)that the data belongs to the first newly created file
+       //Therefore, pointer dealing with the first split is to be used i.e. var4 for writing
+       //Since the data should be written in the sorted form (assuming the sorting 
+         takes place as per the names), the place of where to put that data is to be 
+         decided
+       -CODE to determine the proper location
+       -Insertion of the data using 'var4'
+  }
+  else if(a_gender=='2'){
+       //using var5 to write to the second created file
+       -CODE to determine the proper location
+       -Insertion of the data using 'var5'
+  }
+}
+while (var2.good()){
+     -READING with var2
+     -same as above-
+}
+while (var3.good()){
+     -READING with var3
+     -same as above-
+}
+
+You may also require the functions like seekp, seekg etc. for the proper positioning of the file pointer before reading/writing.
+
+--------------------------------------------------------
+
+Not sure about any best algo. You can google things for help and implement the one which suits you the best.

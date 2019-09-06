@@ -1,0 +1,15 @@
+Assuming that you are asking for a simple program, here is the code:
+
+ 
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(void) {
+    float rwandan, dollar;
+    printf("Enter money in Rwandan Franc: ");
+    scanf("%f", &rwandan);
+    dollar=0.0012*rwandan; //Assuming the current rate: 1 Rwandan Franc equals 0.0012 US Dollar (Source: Google)
+    printf("Amount in US Dollars is: %f", dollar);
+    return EXIT_SUCCESS;
+}
+ 

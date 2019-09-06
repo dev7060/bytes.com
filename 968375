@@ -1,0 +1,8 @@
+Here are the few things I noticed:
+
+1: On line 37, change 'char &month' to 'int &month'.
+2: On line 60 and 88, the functions are trying to return more than one values. A function can return only one value.
+[ left operand of comma operator has no effect [-Wunused-value] ]
+3: As mentioned by @weaknessforcats, initialise the variables.
+
+Also, try to mention some theoretical concept of the program as by that it would be easy for others to analyse the program well.

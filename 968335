@@ -1,0 +1,41 @@
+Well, I coded this as simple as possible. But I agree with @Frinavale.
+Post your problem/ code after trying, as directly asking will not help you learning and building logics in programming.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+char name[10]; //For name of the employee
+int hours; //No. of hours an employee worked last week
+float rate; //Hourly rate of an employee
+float gross_pay;
+float extra; // Extra amount added to pay
+int num; // For number of employees
+//Declared variables in separate lines just for explaining purpose
+cout<<"Enter the number of employees: ";
+cin>>num;
+//Loop to input employee data and calculating gross salary
+for(int i=1; i<=num; i++)
+{
+cout<<"\n Enter the details of employee: "<<i;
+cout<<"\n Enter name";
+cin>>name;
+cout<<"\n Enter the number of hours worked last week: ";
+cin>>hours;
+cout<<"\n Enter the hourly rate: ";
+cin>>rate;
+extra=0;
+if( hours>40)
+{
+ extra=((hours-40) * (rate + (0.5*rate)));
+}
+ 
+gross_pay=(hours*rate)+extra;
+ 
+cout<<"\n Gross pay of the employee is: "<<gross_pay<<"\n";
+}
+ 
+return 0;
+}
+ 
+ 

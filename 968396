@@ -1,0 +1,19 @@
+Maybe you are asking how to convert this statement into code form. For this, the formula 'π r²' can be written as area= 3.14*r*r.
+
+Complete program for this:
+
+#include <iostream>
+using namespace std;
+ 
+int main() 
+{
+ 
+    float r, area;
+    cout<<"Enter radius of circle: ";
+    cin>>r;
+    area= 3.14*r*r;
+    cout<<"Area of circle is:"<<area;
+    return 0;
+}
+ 
+ 
