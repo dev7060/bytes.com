@@ -1,0 +1,5 @@
+if(!str1.equals(str2)){
+  ...
+}
+ 
+ equals() method compares two strings and if the content of both strings is the same, it returns true. Not operator is used according to the need.

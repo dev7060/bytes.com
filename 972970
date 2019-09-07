@@ -1,0 +1,9 @@
+"(struct sockaddr*)&serveraddr"
+
+Explicit type casting is done here. serveraddr is an object of structure sockaddr_in, but my guess is that the second actual parameter of connect() requires an address of type sockaddr and holds the address in a sockaddr type pointer (via formal arguments).
+
+This is similar to what is done with primitive data types like int, float etc. And structure is also a data type (derived one). For example, while dynamically allocating memory,
+
+int *ptr = (int *) malloc(sizeof(int) * length);
+
+malloc() returns a void* type value, that's why explicit type conversion is done to convert it to int* type and then assign it to an int type pointer. However, in this particular case it is unnecessary since void* is automatically promoted to any other pointer type.

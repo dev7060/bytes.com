@@ -1,0 +1,3 @@
+- There is no way of insertion into the middle of the file than re-writing it. The changes can be saved to a temporary file and later, it can be renamed.
+
+- Write the first four changed lines to a temporary file. Then start reading from the original file and skip any operation for these lines. The later part of the file can be copied to the temporary file. And then rename the temporary file.

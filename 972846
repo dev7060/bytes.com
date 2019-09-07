@@ -1,0 +1,7 @@
+One algo could be:
+
+- Store each word in an array and do condition checks. A word can be stored by pushing characters into an array until a space is found.
+
+- Declare a var max and arr_max (an array) in the beginning (outside of loop body and everything) and set its size equal to the length of the first word and copy the word to arr_max intially. Then on each iteration, condition checks can be used like if the length is even and max < length, assign the value of new length to max and save the current word to arr_max.
+
+- After the loop body, output max and arr_max.

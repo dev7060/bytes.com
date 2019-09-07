@@ -1,0 +1,11 @@
+- Can be done with graphics or just text based as well.
+
+For the algorithm:
+
+- Random() function can used to generate random numbers 1, 2, 3, 4, 5 or 6. You need to set the range accordingly to obtain these numbers.
+
+- Rest of the logic depends on the implementation of loop, ifs, functions etc.
+
+- Throwing dice logic can be coded in a function since it's common for both. While calling the function, their dice scores can be stored in separate variables and then condition checks can be made to see who won the round.
+
+- Use separate variables to count the wins for each player and increment the respective values on wins. Then use the condition check: if wins > (no_of_rounds/2), if so, break statement can be used to jump out of everything and declare the winner.

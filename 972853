@@ -1,0 +1,43 @@
+- Scope resolution operator is not required before parameterized constructor of class Time.
+
+- Why is there a parameterized constructor for the Time class if it's not even being used?
+
+- Provided text says, start & end: The starting and ending times of the event. Both represent the time in the format hh:mm:ss.
+
+- It is quiet clear that any primitive data type can't hold a value in such format. However, it can kinda be stored in a character array but it'll then create issues in further calculations as the data type is not suitable for storing such values.
+
+-User defined data type structure can be used in such case. The structures can be declared inside Time class like:
+
+ struct s {
+     int hh;
+     int mm;
+     int s;
+ };
+ struct e {
+     int hh;
+     int mm;
+     int ss;
+ };
+ struct s start;
+ struct e end;
+ 
+ 
+ -All the values can be initialized in constructor as:
+ 
+ ...
+ start.hh=h1;
+ start.mm=m1;
+ start.ss=s1;
+ end.hh=h2;
+ end.mm=m2;
+ end.ss=s2;
+...
+ 
+ 
+ where h1, m1, h2 etc. are formal arguments of constructor.
+
+- These values can be initialized in default constructor as
+
+start.hh=start.mm=start.ss=end.hh=end.mm=end.ss=0;
+ 
+ 

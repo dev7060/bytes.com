@@ -1,0 +1,39 @@
+Follow the posting guidelines and make changes to the post by mentioning your progress and code and what you've tried so far to solve this question.
+
+-----------------------------------------
+
+
+For I/P "ababaa",
+
+prefixes : {"a", "ab", "aba", "abab", "ababa", "ababaa"}
+
+Let's call them substrings.
+
+Logic to get these substrings:
+
+...
+//str = "ababaa"
+//i=0 initially
+while(i<strlen(str)){
+  temp[i]=str[i];
+  temp[i+1]='\0';
+  ....
+  ....
+  i++;
+}
+...
+ 
+ 
+ The values of temp on different iterations would be: "a", "ab", "aba", "abab", "ababa", "ababaa"
+
+Now the logic for the number of occurrences of a substring in a string can be used with each iteration of the loop. Once these values are known, we can determine the longest substring that occurred multiple times with the help of global variables such as maxSubStr (char array) and maxSubStrCount (int, initially 0). Like:
+
+if (currentSubStrCount > maxSubStrCount) {
+  maxSubStrCount = currentSubStrCount ;
+  strcpy(maxSubStr, currentSubStr);
+}
+
+The actual implementation may differ based on the approach. In the end, you can output the values of maxSubStrCount and maxSubStr.
+
+" If no prefix occurs again, you must output "NO" "
+You can use a flag variable to cover this case.

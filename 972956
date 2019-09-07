@@ -1,0 +1,1 @@
+The .csv file can be opened in read mode and reading can be done according to the format of the file. Functions like fscanf() can be used to read the formatted input from file.

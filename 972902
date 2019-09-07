@@ -1,0 +1,8 @@
+One way of doing this is to use labels and goto. But Python doesn't support them. However, you can use something like this[http://entrian.com/goto/] if that serves your purpose. It enables to transfer the flow of control to a label.
+
+-----------------------------------------
+
+
+- break statement is used to terminate the loop and jump the control to the first statement after the loop body. But here, it appears the post is meant to change the flow of control in case of functions.
+
+- @swaroop11 The statement "sys.exit()" is responsible for the closing of the program. It can also be removed if the purpose is not so in the else case.

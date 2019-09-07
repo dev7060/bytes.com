@@ -1,0 +1,5 @@
+<?php 
+echo $_COOKIE["your cookie name"];
+?>
+ 
+ https://www.php.net/manual/en/features.cookies.php
