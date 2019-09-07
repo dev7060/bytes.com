@@ -1,0 +1,1 @@
+Visa starts with the number 4 and MasterCard starts with 5. You need to extract the first value of the input field and store it in a variable. Then use condition checks and apply the CSS display: none; property to the rest of the elements that you want to hide.

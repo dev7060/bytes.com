@@ -1,0 +1,27 @@
+Several things:
+
+- You need to write the desired code in the function's body.
+
+//functions' declarations
+main(){
+...
+}
+//functions' definitions
+fun1(){
+...
+}
+fun2(){
+...
+}
+ 
+ 
+- Function has to be called from main.
+- Since the function is returning char data type, it can either be stored in a variable or can be shown directly to the console.
+
+char newCh=leeskl();
+ 
+or
+
+printf("%c", leeskl());
+
+- Other than that, the logic for uppercase to lowercase looks fine.

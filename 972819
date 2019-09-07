@@ -1,0 +1,20 @@
+char arr[] : It's a character array, which is different from a String in many manners. Like:
+- String methods cannot be used
+-'+' overloaded operator can't be used
+- It is stored in heap memory whereas String literals are stored in the String constant pool.
+-A string can't be iterated over characters using loop, etc.
+
+char arr[] = new char[6]
+I am not sure about this declaration. 'new' is used to dynamically allocate memory. So the right hand side of the expression is allocating memory and returning an address.
+When we declare an array, its name points to the first element. Here I guess the returned address is stored in arr.
+
+On a side note, new is used with jagged arrays like:
+
+char[][] arr = new char[2][];
+arr[0] = "Hello".ToCharArray();
+arr[1] = "cat".ToCharArray();
+ 
+ 
+But it's a 2D system with variable number of columns in each row.
+
+Share the link of the resource/article you are referring if you could.

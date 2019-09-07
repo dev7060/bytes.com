@@ -1,0 +1,7 @@
+More explanation on code from your side is required, plus environment details.
+
+"How to fix parameter and first argument of EdsCreateFileStream?"
+- Where is EdsCreateFileStream(...) defined? How many and what types of arguments does it take?
+-"dirItemInfo.szFileName" is passed as the first actual argument in EdsCreateFileStream(...) and "dirItemInfo" is an object of "EdsDirectoryItemInfo". What is the data type of szFileName? Is that the same datatype required by EdsCreateFileStream(...) as its first argument? Is "szFileName" accessible without using a member function?
+
+The code provided is incomplete. Hence, cannot be compiled here.

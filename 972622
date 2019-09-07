@@ -1,0 +1,5 @@
+I am not sure what you mean by "pause the code". The execution will always be stopped on using any function that requires user attention like inputs etc.
+
+How is the "scan the second RFID" thing done? If that is something provided by the user, just insert the appropriate function between the two ifs. If that's something returned by a library function, just call that function after the first if. The program execution is sequential. Since you want the info of the second RFID before the second if, just make a way to fetch that info before going to the second if.
+
+And then the code can continue on to the second if statement with the information of the second RFID.

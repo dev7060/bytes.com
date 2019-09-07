@@ -1,0 +1,32 @@
+You need to use the strcat() function twice.
+
+Algorithm:
+1) Input 1st string (let it be 'a')
+2) Input 2nd string (b)
+3) Input third one (c)
+4) strcat(a, b)
+5) strcat(a, c)
+
+strcat(a, b) concatenates a and b and store the resultant string in a.
+
+Let's say, a="Hello ", b="there ", c="cat"
+
+After strcat(a, b) , a = "Hello there"
+Then strcat(a, c) , a = "Hello there cat"
+
+------------------------------------------------------
+
+"Another issue with strncat() is that it may not write a terminating null to the output buffer. You should follow each call to strncat() with an assignment statement that stores null ('\0') in the last slot of the destination buffer."
+
+I ran into an issue in past where strncat() messed up the concatenated string (showing some rekt characters after the concatenated string). However, I couldn't understand why such was happening. On going through resources, they say it writes null at the end. Like mentioned here[https://linux.die.net/man/3/strncat].
+Is this something compiler dependent or what?
+
+----------------------------------------------------------
+
+Well I apologize, that was strncpy(), not the concatenate function that made the string produce unexpected output.
+
+I just tested the strncat() and it works fine. Adds the null character at the end automatically.
+
+While working with strncpy(), as mentioned in the example here[http://www.cplusplus.com/reference/cstring/strncpy/], null character needs to be manually added in the last slot of the destination buffer. I was missing this thing earlier.
+
+Thanks for the clarification on strncat().

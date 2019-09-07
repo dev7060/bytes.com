@@ -1,0 +1,11 @@
+String is a non-primitive data type used to store array of characters.
+
+Static is a keyword used to fulfill common requirements. We make something static when it's common to all the objects. Static variables take memory in the class area at the time of class loading.
+
+Public is an access specifier which allows other classes to use that data member.
+
+String c3 -> Just a String type instance data member which can be used through an object.
+
+Static String c2 -> A static (non-instance) data member of String data type. Static members can be accessed directly without creating an object.
+
+Public Static String c1 -> A static (non-instance) data member of String data type belonging to class A (let) having public accessibility. In other classes, you can use this data member by creating an object of class A. Also, since this member is static, it can also be accessed directly as A.c1 in other classes.

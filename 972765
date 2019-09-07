@@ -1,0 +1,5 @@
+A qualified name refers to a class member, namespace member or enumerator. It appears to the right hand side of the scope resolution operator. It has some sort of indication where it belongs. e.g. cout and endl when used with scope resolution operator (std::cout). 'std' is the name of the namespace that identifier cout is part of.
+
+An unqualified name, on the other hand, doesn't live in any namespace and doesn't need a qualification. e.g. built-in types like int, double etc. You don't use scope resolution operator with them.
+
+According to the part of code you have shown, looks like the pre-processing directive 'include' is misspelled. And hence, compiler couldn't identify that and expects a correct unqualified-id before "{".

@@ -1,0 +1,16 @@
+continue statement is used inside a loop body to jump to the next iteration.
+
+Here, you are using the continue statement inside the body of an if statement and there is no loop around. You have to use loops (for, while & do-while) in order to use continue.
+
+----------------------------------------------
+
+I am not familiar with Arduino programming. But here are the few things I observed.
+
+Lines 36 and 41 seem bit odd to me. Semicolons are used just after the if conditions, which literally means that ifs have no body.
+
+Also, in the same lines, there are some functions calling. These should be present in the if body (wrapped under curly braces) rather than simple brackets. If the functions are returning values and used as conditions (as I noticed IsNewCardPresent(), may return a value, true or false), in this case, when two or more conditions are present,they are combined using logical operators (like logical AND or logical OR) under a single bracket set, not in the separate ones.
+
+
+As you mentioned, the continues were originally returns, it seems unclear about the goal in using continue statement here. Continue statement cannot be used without any loop. By loop, I mean loops like for, while or do-while, not a function named loop (as written in the program).
+
+A good read on the use of Continue here[https://docs.microsoft.com/en-us/cpp/c-language/continue-statement-c?view=vs-2019].

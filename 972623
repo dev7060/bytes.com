@@ -1,0 +1,19 @@
+What do you mean by x0 and x1?
+
+If they are variables, you can use array to store values in a continuous manner.
+
+for(int i=0; i<n; i++)
+  scanf("%d", &x[i]);
+ 
+ Here: x0, x1, x2 etc. will hold same types of values.
+-------------------------------
+
+If you mean that as a multiplication sign,
+
+while(condition){
+   value = value x i;
+   i=i+1;
+}
+ 
+ 
+Initialise the values of 'i' and 'values' accordingly.

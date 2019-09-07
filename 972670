@@ -1,0 +1,1 @@
+Idetifier names cannot be omitted in the function definition. However while declaring a function, only the number and types of arguments are required. So, it's optional there to mention the identifiers name.

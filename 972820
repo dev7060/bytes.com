@@ -1,0 +1,7 @@
+fscanf() seems a good option to use here. You can use it like:
+...
+while(fscanf(fptr, "%f,%f", &var1, &var2)==1){
+  //Perform calculations
+}
+...
+ 
