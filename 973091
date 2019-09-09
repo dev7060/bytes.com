@@ -1,0 +1,5 @@
+What have you done so far for this?
+
+Hexadecimal values are represented in C by preceding the values with "0X" or "0x". E.g. "0x64" (which is equivalent to 100 in decimal). For generation of random hex code, you can use random function at first to generate random decimal values and then conversation from decimal to hexadecimal can be done.
+
+Once the value to be written is available, concepts of file handling are to be used. .so file can be opened in "wb" mode for writing the data to the file in binary form. And then writing can be done using the already available binary functions.
