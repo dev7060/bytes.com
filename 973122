@@ -1,0 +1,1 @@
+It seems like APIs can be used here. API serves as an interface to deliver the data from the database. Data can be fetched from the server through API and then can be used according to the needs. You may need to learn how to read the fetched API data (which is delivered in JSON, XML, YAML etc. formats).
