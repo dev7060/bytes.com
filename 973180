@@ -1,0 +1,3 @@
+From the snippet you have provided, it seems that a single count variable is being used. Different count variable needs to be used for each course to display distinct results.
+
+Also, only the count++ part should be present in the body of if. After the if block, count can be printed.

@@ -1,0 +1,3 @@
+Just provide a proper data-type value as the 1st argument of pow(). More info here: http://www.cplusplus.com/reference/cmath/pow/
+
+'x' is an array of real here -> not something the function pow() expects.

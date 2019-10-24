@@ -1,0 +1,10 @@
+Replacing data isn't possible in a file. However, this task can be simulated using a temporary file. For this, the required parts of the original file can be copied to the temporary file leaving the parts that need to be replaced. New data can be put along with the copied. It all depends on how the file pointers are controlled to achieve what is required.
+
+For e.g. (with reference to the screenshot)
+Let's say the file pointer used for the original file is 'fp1' and for the temporary file is 'fp2'.
+
+-Copy the first line of the original file to the temporary file using fp1 to read and fp2 to write.
+-Write the new data (line 2 to 23) to the temporary file (using fp2).
+-Shift the file pointer fp1 to a new location to skip all the lines which need to be replaced.
+- Copy the rest of the file to the temporary file using fp1 to read from the original and fp2 to write to the temporary file.
+-Delete the original file and rename the temporary file as the original file.

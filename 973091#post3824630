@@ -1,0 +1,1 @@
+Use function fseek() to move the file pointer to a particular location where the new data is to be written.

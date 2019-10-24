@@ -1,0 +1,1 @@
+Formatted data can be written to a file using some already available file handling functions like fprintf(). And for "int A(char x)", separate components can be extracted and used from this string according to the needs.
