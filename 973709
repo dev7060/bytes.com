@@ -1,0 +1,28 @@
+..to receive an integer N..
+The function has to accept only one formal argument.
+
+Expand|Select|Wrap|Line Numbers
+public static int (int X, int Y) {
+No function name is mentioned.
+
+Expand|Select|Wrap|Line Numbers
+while (size<=Y) 
+It should not check for equality here. Refer the question:
+...level reaches N or more organisms...
+
+Expand|Select|Wrap|Line Numbers
+size * 2;
+This surely is doing size*2 but isn't updating any value.
+
+See the required changes below:
+Expand|Select|Wrap|Line Numbers
+public static int fun (int N) {
+  int size=1000;
+  int hours = 0;
+  while (size<N) {
+    hours+=12;
+    size*=2;
+  }
+  return hours;
+}
+ 
