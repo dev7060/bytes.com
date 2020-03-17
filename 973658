@@ -1,0 +1,12 @@
+29:12: error: assignment of function 'void delay(long unsigned int)'
+Assigning something to a function?
+
+29:12: error: cannot convert 'int' to 'void(long unsigned int)' in assignment
+Comparison operator needs to be used instead of the assignment operator.
+
+error: 'tonen' cannot be used as a function
+"tonen" is an array.
+
+66:15: error: a function-definition is not allowed here before '{' token
+74:1: error: expected '}' at end of input
+Watch out for the curly braces.
