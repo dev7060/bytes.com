@@ -1,0 +1,10 @@
+Nowhere it is mentioned that writing it explicitly is considered a best practice. There's a time and place when to mention it explicitly. return None is never used if there are no other possible return values from the function. For example, the code posted by the OP where the function has only one path.
+It does make sense in the following case:
+Expand|Select|Wrap|Line Numbers
+def get_name(x):
+    if belong_to_US(x):
+        return x.name
+    else:
+        return None
+ 
+It is also used in the cases when there is a requirement to break out of a function early. But I find no significance of adding it to the OP's code.
