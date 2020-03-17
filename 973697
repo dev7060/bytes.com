@@ -1,0 +1,30 @@
+array not created like in C++
+
+int a[5];
+a[0]=5;
+Main.java:13: error:']' expected
+int a[5];
+Main.java:13: error:illegal start of expression
+int a[5]:
+"new" keyword needs to be used. Arrays are created dynamically in Java (unlike static arrays in C++) and hence memory is allocated at run time. There is no concept of generic declaration.
+Some possible ways to create an array:
+-int a[]={1, 3, 5, 7, 9};
+-int a[]=new int[5];
+-int a[];
+a = new int[5];
+
+-int a[5]=new int[]; //incorrect way, since memory is allocated at object creation and hence "new" needs to know the size.
+
+The above text answers the question. If the OP is interested to know some behind the scenes stuff:
+
+As mentioned above, the memory for arrays is allocated dynamically. And guess what gets memory at runtime? an object. And that's why arrays are represented by objects in Java. Now you may ask since an object belongs to a class, to which class does an array belong to? And the answer to that would be that those classes don't exist at compile time. Classes that are created at runtime are called proxy classes. And there's an obvious reason for choosing proxy classes because of the unavailability of names of the user-defined blueprints.
+
+Here's the possible blueprint of the runtime class:
+class xxxxx extends Object implements Serializable
+{ ...
+long length;
+...
+}
+
+Why pool used for string? why memory is not used like other objects?
+Pool memory is a part of the heap. This area is used to achieve the concept of object sharing. This is the reason why a String is immutable. Garbage collector usually has no entry in this area.
