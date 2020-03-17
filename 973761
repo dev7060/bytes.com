@@ -1,0 +1,3 @@
+See this: https://bytes.com/topic/c/answers/85...ions-c-program
+
+Also, source files are also text data. A program can be made to analyze all the .c and .cpp files (in the directory and sub-directories of the project) and count the number of functions.
