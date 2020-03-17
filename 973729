@@ -1,0 +1,25 @@
+I stumbled upon a few codes in the past that made me research this topic. Codes such as:
+(C)
+Expand|Select|Wrap|Line Numbers
+float x=0.7;
+printf("%.10f %.10f\n",0.7, x);
+ 
+Output: 0.7000000000 0.6999999881
+
+
+(C++)
+Expand|Select|Wrap|Line Numbers
+float x=1.7;
+if(x==1.7)
+ cout<<"Equal";
+else
+ cout<<"Unequal";
+ 
+Output: Unequal
+
+, etc...
+
+Interesting enough for me to dig into the rabbit hole to understand the behavior of floating points.
+
+Here's a read if anyone's interested:
+"What Every Computer Scientist Should Know About Floating-Point Arithmetic" https://docs.oracle.com/cd/E19957-01..._goldberg.html
