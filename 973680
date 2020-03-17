@@ -1,0 +1,4 @@
+Linker error occurs when the code has passed through the compilation phase but the required functions or libraries cannot be found for the execution.
+
+How to resolve linker error in c++ OOPS Concept
+More specific details from the OP are required.
