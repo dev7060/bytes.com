@@ -1,0 +1,5 @@
+I was searching for the best options for graphics control on the screen and thought i could use graphics.h but it doesn't work.
+Because the headers and the library files aren't present there. Setup is required to run the graphics programs.
+
+any suggestions on which functions are best for creating basic text based graphics?
+Depends on the game.
