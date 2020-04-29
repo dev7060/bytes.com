@@ -1,0 +1,8 @@
+In C, a program is directly connected to the i/o device. It requires context switching, again and again, using loops and hence results in degraded performance. Even a file size of MBs takes hours to get the work done.
+
+C++ uses streams. Stream is like a buffer (imagine it like a truck to carry data). It works as: Data to prg. -> stream -> destination. Here no context switching is required for every byte. The data from the stream to the destination is delivered whenever the stream is full. On a site like youtube also, buffered data can be seen with the white line in the progress bar.
+
+In the same way, java supports stream too. Data flows as follow:
+java prg. -> o/p stream -> o/p device (e.g. monitor)
+i/p device (e.g. keyboard) -> i/p stream -> java prg.
+The conversion of objects to stream is called serialization and conversion of the stream to objects is called deserialization. Streams are characterized into two parts in java: 1) Byte streams that use ASCII code system (for desktop applications) and 2) Character streams that use Unicode system (used on the internet in JSP servlets). Many classes are available in the API to work with both types. To enhance the performance even more, mini streams are used like Buffered i/o stream.
