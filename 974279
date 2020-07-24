@@ -1,0 +1,7 @@
+Being a sophomore I think I am not experienced enough to answer this, but I'd add my 2 cents from imagination.
+
+I think the main part would be to figure out what does the team want you to do in the whole process and focus on the same. Of course, everyone in the team would be responsible for something. Making a robust product would require lots of testing. "High quality" is a broad term. It may include fast performance, less memory usage, security, usage of the best optimum algorithms, analyzing space and time complexities, etc. When you know well enough at what level your product would be there, the only thing then left would be to chase to that level keeping the time limit in mind. I'd go with one of those development life cycle models to make sure everything gets done properly.
+
+The selection of technologies would depend on the type of project, budget, and other factors such as what has been used by the team earlier and in what field the team is comfortable working with and if there's a requirement to learn something new.
+
+Major questions regarding the project should have been asked already in the early stages while it is being designed considering the requirements in mind. I'd use something like UML for designing the mind map or blueprint.
