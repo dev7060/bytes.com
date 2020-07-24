@@ -1,0 +1,14 @@
+In my view, every language has its own qualities which makes it unique and choosable for building something.
+
+Look at this cute Gopher golang has or GitHub's magical octocat
+What actually are you referring to here about Go?
+
+------------------------------------------
+
+Glad you pointed that out. Obviously there's no point in using obsolete technologies. I meant the comparisons between the languages that are in use presently. Such as choosing Java where the priorities are security and because of its feature of being platform-independent. Using C/C++ where low-level interaction is required. Choosing scripting language like python to quickly get something done in a faster manner with easy to use syntax. That's just how I view them.
+
+-----------------------------------------
+
+So so true. I guess this self-biased choice is something that leads to (or more like a contributing factor) the discussions of type 'why x is better than y'. It's good to hear both sides but I think there isn't a final conclusion to such. x could be better than y in certain aspects but the same applies to y too. Better stop blaming the technology as most of the things can be done plus there are always workarounds. Also reminds me of discussions of type 'windows is better than Linux', 'oop is bad', etc. OOP may not be suitable for building simple features as it may result in a minuscule return on investment, but the idea of representing everything relating to the real world introduces a new level of easiness in the workflow.
+
+I think pretty much everything has copied/is copying every other thing. It doesn't take much time to see the reflections of a popular feature of something to be made available in others in one way or another via updates. Sometimes it may come out in an innovative form. Java copied OO syntax from C++ and garbage collection from Lisp, C# cloned the heck out of Java, etc. For example, a web app can be made using ruby or python or java or C# or Go or JS or C or C++ or rust or haskell or perl or pascal or COBOL etc, like anything can do the same. Lots of varieties and hence depends on the taste of the developer.
