@@ -1,0 +1,14 @@
+What could be smallest programs in the C and C++ in terms of bytes?
+What do you mean exactly? "Smallest programs" in terms of storage space? Is the question related to optimization?
+
+Technically saying, the smallest program would be
+Expand|Select|Wrap|Line Numbers
+main(){}
+and does nothing.
+
+-------------
+
+#2
+
+--------------
+Lol I did that on purpose to make it look like the smallest possible one-liner. https://bytes.com/topic/c/answers/973428-please-find-error-program#post3825313
