@@ -1,0 +1,4 @@
+Please write your answer in pseudo-code showing clearly what classes, interfaces, methods and design patterns you would create/use to solve this problem. Also, object oriented programming is appreciated.
+
+what I tried: I read this whole tutorial that explains what pseudo code is and uses java as an example: [removed], but I don't know how to do it.
+Pseudocode isn't a convention. It doesn't follow any standards. There is no definition of it nor there is any fixed rule to write it. Every textbook, article, paper, etc. uses its own version. Pseudocode isn't a language. There is no grammar or syntax to follow. It is just used to break down the problem, to make a rough sketch of your program, to design the algorithm, to design your code in plain English, etc.
