@@ -1,0 +1,12 @@
+`int x = NULL`
+
+Is this considered wrong or bad? and if so why?
+
+I used to write 'using namespace std;' in my code because that's what most textbooks and classes did, but I found a nice post on a forum explaining why its bad and the reason for so. So it made me wonder if making a none pointer NULL was bad.
+Depends. NULL is defined as (void *)0 in C. In C++ it's a macro. Write some code and see the self-explanatory warnings yourself.
+`Object x = NULL;`
+
+Is it okay to set objects equal to NULL, or should objects be initialized setting their data members to 0 or empty string, depending on their data types?
+What's the relationship between setting an object to NULL and initializing individual members? Two completely different things.
+What if the int could be 0, or any other number? How could we check if a int was empty then?
+A variable is the name of a memory cell. Do you ever say if a cell is empty or not? Because it never is.
