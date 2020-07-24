@@ -1,0 +1,1 @@
+I am not a PHP expert but I think real-time data output isn't possible with PHP (if that's you wanna do). You may need to use AJAX or setInterval function to query every certain time.
