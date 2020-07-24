@@ -1,0 +1,1 @@
+Stream objects are used to accept or display data to the console. Similarly, objects are used with getter and setter methods to display data from/to the GUI. Internal processing remains the same. It's just how the data is moved to and from the methods accordingly keeping in mind the principles of OOP.
