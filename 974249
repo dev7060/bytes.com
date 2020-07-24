@@ -1,0 +1,9 @@
+What have you done so far? Many ways I can think of.
+
+- Store the part of the link after the final '/' in a string and check if the extension is .pdf.
+- Store the whole link in a string, start reading from the back and check if that reads fdp.
+- Search for ".pdf" in the entire file. If there's an occurrence, keep copying the chars backward to a string until '/' if found (since filenames can't use slash).
+etc...
+
+sorted without repeated result
+Keep storing the required names in a string array and when it's all done apply the logic of duplicate elements deletion (or you can check if the value is already present in the array before insertion) and then sorting can be done.
