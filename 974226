@@ -1,0 +1,11 @@
+Sounds too generic theory to me.
+You want to automate some specific jobs and in order to so that you need to use web scraping techniques. (Say you can only use Python for the web. scr.)
+How would you do it?
+By programming the part that would automate the stuff.
+How would you execute those Python scripts? Through PHP or at specific times from system commands?
+How would you save your results?
+Here. https://www.php.net/manual/en/function.shell-exec.php
+Would you use the database or pass them (somehow) straight to a PHP script?
+Depends on the data you're dealing with.
+How would you "map" and maintain this whole new system of automation?
+What kind of maintenance are we talking about here?
