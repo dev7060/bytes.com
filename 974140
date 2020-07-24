@@ -1,0 +1,21 @@
+Simply put, you have been provided the access to some parts of site's database via the API. An app needs to be developed to make use of the HTTP methods and perform CRUD like operations.
+
+Your deliverables are:
+A link for us to test what you built
+The app could be tested via localhost and later can be deployed to a service on the web (like Heroku) for live preview.
+
+A way for us to review your code through a control version system (for example, Github) where we can review your incremental progress
+I suggest using proper messages while making the commits. Maybe make use of multiple branches too.
+
+The rest depends on someone's creativity what he/she comes up with.
+
+
+
+----------------------------
+
+
+There are tons out there. Free and paid ones, APIs that don't require auth, APIs that require keys and tokens, etc. Use a search engine to find and choose the one you feel like.
+
+For me, the first API i worked with was Twitter like 3 years ago. It uses auth. I made a bot that tweeted random sketches and text using processing library, p5.js, and node.js; and used heroku for the deployment. It was fun. The code doesn't work with the latest updates as Twitter has made significant changes in the streaming protocols.
+
+A developer account needs to be set up to use Twitter API and generate the required keys and tokens for every app you make. I think Twitter is becoming stricter eventually to provide developer access. Probably because people's been using it for political gains like to put a hashtag on trending using bots. One can also apply multiple times though.
