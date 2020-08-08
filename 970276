@@ -1,0 +1,18 @@
+The OP never asked anything about enabling automatic updates. In fact, he mentioned that he shut off windows updates, which means he very well knew about how to enable and disable em.
+
+Old thread, here are my views in case anyone may find it useful in the future.
+
+I called Dell Tech Support and they admitted to other calls with same problem but there answer was to reinstall the OS
+Well, who would know better than the official tech support. That's one of those generic replies that can solve any universal problem. Got any xyz problem? reinstall the OS. Boom problem solved!
+
+One may need to apply trial and error to perform self-diagnosis to figure out what exactly is causing the issue. The exact problem source needs to be identified before any solution can be thought. Here's what i'd do to figure things out before applying the final solution of "OS-reinstall".
+
+- Backup of important data as early as possible.
+- Research about the error code that the blue screen says.
+- Read specific Microsoft KB articles to figure out what part of the update may be linked to the error shown in the blue screen. I mean more chances are that something like "windows_defender_definitions_update (KB123xxxx)" would not cause this severe issue. It would be something of low level like driver update or related to a kernel update.
+- Uninstall the past updates via the control panel.
+- There's something called "Turn windows features on or off". See if you find anything new checked there.
+- Windows 10 forces auto-updates in the background. It's possible that windows have downloaded the update files and it tries to install em on every reboot. I'd manually get rid of those cache update files then.
+- Windows updates maintain log files too that may also prove to be useful.
+- Brands also provide their own troubleshooting software called something like "support assistant" for the updates of drivers and other system care stuff.
+- There's also a command sfc /scannow that automatically scans and repairs system files.
