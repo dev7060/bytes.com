@@ -1,0 +1,30 @@
+I've used version control system git along with github for hosting the binaries and other files via github releases. Moreover, that service gives a whole new level of flexibility to discuss issues, record feedbacks, distribute the binary releases, maintain proper documentation, how-to guides, maintain the history of the project, etc. If the aim is to distribute the project to a closed group, a private repository needs to be set up and required people can then be invited as collaborators. Also if the number of people you wish to distribute the stuff is a bit high and you don't want to send individual invites, an automation system can be set up using the API to send those automated invites.
+///////////////////////////////////
+
+
+To give a picture of what it's like, here's an example of how a public open-source project is maintained by Adobe https://github.com/adobe/brackets/ An example of a private project would be the source code of the Unreal Engine. It is available at https://github.com/EpicGames/UnrealEngine, but is not publicly accessible. I can view it because of the invite. (attachment)
+Aside from giving this Link to specific persons, is there any method to restrict who can perform the download?
+When an invite is sent for access to a private repository that has been set up under the account, it pretty much gives the same access options to the invited individual as the owner. To have more control, the repository needs to be set up under an organization. You can then assign roles such as:
+Read: Recommended for non-code contributors who want to view or discuss your project.
+Triage: Recommended for contributors who need to manage issues and pull requests without write access.
+Write: Recommended for contributors who actively push to your project.
+Maintain: Recommended for project managers who need to manage the repository without access to sensitive or destructive actions.
+Admin: Recommended for people who need full access to the project, including sensitive and destructive actions like managing security or deleting a repository.
+There is no restriction to anyone invited to download. The restriction is on changing/manipulating anything in the project and that can be well controlled using the above roles. Plus I don't see any use-case in inviting someone to a private area and then not allowing them to download the content.
+Do I now create a Link to this Repository, and how, exactly do I do that?
+Once the repository has been created and set up, visit https://github.com/yourusername/repo...ettings/access to invite people. Invitations are sent using usernames (i.e. they need to have an account) and then they get an email (to the same email address with which they've registered on the site) to accept the invite. Once they accept, then only you and they can see your private project area (refer attachment). Alternatively, the invitations can also be seen through https://github.com/yourusename/repos...me/invitations (for repo under an account) and https://github.com/organisationname/...me/invitations for repo set up under an organization.
+It has an advantage over the google drive's "anyone with the link can view feature" since here only you completely control whom to give access to no matter of the shared link.
+How is the actual download of these Files performed?
+Have a look here how the assets are being maintained and managed in the releases section https://github.com/adobe/brackets/releases , the only difference would be that only the closed group that you've invited would see this page.
+Attached Images
+File Type: jpg	Capture.jpg (67.8 KB, 7 views)
+
+/////////////////////////////////
+
+
+Since making the Repository Private, this Link no longer works, and the Error Message I receive after attempting to navigate to it is . I can physically Log-in with my Username & Password and my repository is there, but can I create a direct Link to the Repository?
+This is how it works. One needs to be logged in with the provided access to the repository to be able to browse that link. The login credentials identify an individual to be allowed to that private area. Your link is similar to this https://github.com/EpicGames/UnrealEngine, 404 error page is shown when it is tried to be accessed by someone who's not allowed to see it. What exactly do you mean when you say "direct Link to the Repository"? The URL itself is the direct link to the repo. Also if one has sufficient access to it, it also appears under https://github.com/unsername?tab=repositories. It doesn't work like some other cloud storage where they say "anyone with this unique link can see the content". As mentioned earlier, one has to be logged in to prove they have sufficient privileges.
+
+///////////////////////////////////
+
+Glad I could be of help.
